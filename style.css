@@ -1,0 +1,247 @@
+body{
+    background-color:skyblue;
+    margin: auto;
+    padding: auto;
+}
+.p-özel{
+    color: red;
+
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+
+    text-transform: lowercase;
+    font-family: Courier New, Courier, monospace;
+    font-size: 200%;
+
+
+}
+/* o-özel sınıfı için alrt çizgiyi kaldır */  
+
+.a-özel{
+  text-decoration: none;
+  text-transform: uppercase;/* hepsini buyuk harf yap,messajlasma kismi icin yaptik*/
+  font-size: 2cm;
+}
+
+.özel-in{
+    font-size: 10mm;
+}
+
+.özel-em{
+    font-size: 3em;
+}
+
+.özel-punto{
+    font-size: 20pt;
+}
+
+.özel-px{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.ozel-in-iki{
+    font-size: 0.5in;
+    font-weight: bold;
+}
+
+.a-özel:link {
+    color: brown;
+}
+.a-özel:visited {
+    color: yellowgreen;
+}
+
+.a-özel:hover{
+    color: blue;
+}
+
+.a-özel:active{
+    color: gray;
+}
+
+.özel-none{
+    list-style-type: none;
+    border: 10px groove firebrick;
+    position: relative;
+    left: -20px;
+    z-index: 1;
+}
+
+.özel-kare{
+    list-style-type: square;
+}
+
+.özel-ermeni{
+    list-style-type: armenian;
+    border-left-color: red;
+    border-right-color: black;
+    border-top-color: darkorange;
+    border-bottom-color: seagreen;
+
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: none;
+
+    border-left-width: 5px;
+    border-top-width: 6px;
+    border-right-width: 7px;
+    border-bottom-width: 8px;
+
+    outline: 5px rgba(18, 18, 19, 0.603) dashed;
+
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+
+}
+
+.özel-greek{
+    list-style-type: lower-greek;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+
+    outline-style: dotted;
+    outline-width: 6px;
+    outline-color: black;
+
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    z-index: 1;
+}
+
+.özel-decimal{
+    list-style-type: decimal;
+    border: 10px outset coral;
+        
+}
+
+.özel-alfa{
+    list-style-type: lower-alpha;
+    border: 10px inset darkcyan;
+    visibility: hidden;
+}
+
+.özel-roman{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    background-color: blue;
+    border: 10px ridge indianred;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 80px;
+
+    min-width: 200px;
+    min-height: 100px;
+    
+    max-width: 300px;
+    max-height: 150px;
+
+    position: fixed;
+    top: 30px;
+    right: 5px;
+
+    opacity: .5;
+}
+.özel-li{
+    background-color: bisque;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.tablo-özel{
+    border-collapse: collapse;
+    border: 7px dashed yellow;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 45px;
+
+    display: none;
+}
+
+.table-hücre{
+    width: 200px;
+    height: 35px;
+    border: 6px dotted teal;
+}
+
+div{
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    margin: 10px;
+}
+
+.özel-inline{
+    display: inline;
+}
+
+.ana{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 70%;
+    height: 50%;
+}
+
+.cocuk{
+    float: right;
+}
+
+.ortanca{
+    clear: both;
+}
+
+.kutu{
+    text-align: center;
+}
+/* 
+% yuzde
+in inc
+cm santim
+mm milimetre
+em varsayilan
+pt punto
+px pixel
+*/
+
+@media screen {
+    p{
+        background-color: aliceblue;
+        border-radius: 50px;
+    }
+    a{
+        background-color: bisque;
+    }
+}
+
+@media print{
+    p{
+        font-family:sans-serif ;
+        background-color: blue;
+    }
+}
+@media screen,print{
+    p{
+        font-weight: bold;
+    }
+}
+
+@media (wax-widht:600px) {
+    a{
+        opacity: 0.5;
+    }
+}
+
+@media all {
+    ul{
+        background-color: burlywood;
+    }
+}
